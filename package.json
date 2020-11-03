@@ -1,0 +1,26 @@
+{
+  "name": "rad-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.test.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.10.1",
+    "bcryptjs": "^2.4.3",
+    "graphql-yoga": "^1.18.3",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.10.1",
+    "chai": "^4.2.0",
+    "graphql": "^15.4.0",
+    "mocha": "^8.2.0",
+    "supertest": "^6.0.0"
+  }
+}
