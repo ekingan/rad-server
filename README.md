@@ -13,7 +13,7 @@ Pull down this branch and run `npm install`
 * Migrate the database:
 `npx prisma migrate up --experimental`
 
-* Seed the database: `node src/scripts.js`
+* Seed the database: `node src/script.js`
 
 ## Start the server
 `npm run start`
