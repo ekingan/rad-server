@@ -26,5 +26,5 @@ Pull down this branch and run `npm install`
 
 - Lack of tests - I found it very difficult to find any decent documentation about creating affective tests for graphql/prisma.
 
-- Lack of good error handling
+- Lacks good error handling
 
