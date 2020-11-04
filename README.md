@@ -4,9 +4,14 @@ Rad Server is built using Node, Graphql and Prisma using a SQLite database that 
 
 This is the server side portion of the app. The client side can be found at [Rad-Client](https://github.com/ekingan/rad-client)
 
+Node version `v14.14.0`
+
 Pull down this branch and run `npm install`
 
 ## Database set up
+
+### Install Prisma command line
+`npm install @prisma/cli --save-dev`
 
 ### run the following commands:
 * Create the database:
