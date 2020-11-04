@@ -17,7 +17,7 @@ Pull down this branch and run `npm install`
 * Create the database:
 `npx prisma migrate save --experimental`
 
-  - You will get a prompt asking if you would like to create a new database. Select Yes, and type init for the Name of migration. The hit Return to confirm.
+  - You will get a prompt asking if you would like to create a new database. Select `Yes`, and type `init` for the Name of migration. The hit Return to confirm.
 
 * Migrate the database:
 `npx prisma migrate up --experimental`
